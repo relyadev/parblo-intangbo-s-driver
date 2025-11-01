@@ -15,16 +15,16 @@ use crate::config::{Config, Keymap, WatchConfigChangeTask};
 use crate::{debug, info, warn};
 
 const VENDOR_ID: u16 = 0x0483;
-const PRODUCT_ID: u16 = 0xa013;
+const PRODUCT_ID: u16 = 0xa014;
 const INTERFACE_NUM: u8 = 0x02;
 const IN_ENDPOINT: u8 = 0x83;
 const OUT_ENDPOINT: u8 = 0x03;
 const HANDSHAKE_USAGE_BUF_SIZE: usize = 1101;
 const INPUT_USAGE_BUF_SIZE: usize = 10;
 const READ_INTERRUPT_TIMEOUT: Duration = Duration::from_millis(1000);
-const EVENT_DEVICE_NAME: &str = "  Parblo Intangbo  M(F7)";
-const VIRTUAL_DIGITIZER_NAME: &str = "Parblo Intangbo M (Digitizer)";
-const VIRTUAL_KEYBOARD_NAME: &str = "Parblo Intangbo M (Keyboard)";
+const EVENT_DEVICE_NAME: &str = "  Parblo Intangbo  S(F7)";
+const VIRTUAL_DIGITIZER_NAME: &str = "Parblo Intangbo S (Digitizer)";
+const VIRTUAL_KEYBOARD_NAME: &str = "Parblo Intangbo S (Keyboard)";
 const DEVICE_HANDSHAKE_DATA_LIST: &[&[u8]] = &[
     &[
         0xfd, 0x89, 0xff, 0xff, 0x00, 0x00, 0x00, 0x06, 0x00, 0x00, 0x03, 0x01, 0x01, 0x01, 0x91,
