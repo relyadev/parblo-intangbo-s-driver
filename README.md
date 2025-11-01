@@ -1,6 +1,6 @@
 ![Parblo Intangbo M](https://www.parblo.com/cdn/shop/products/PA000020_new_com4_1000x.jpg)
 
-「Parblo Intangbo M」绘图板的Linux“驱动程序”，通过rusb/libusb和evdev-rs/libuinput在用户空间中实现。
+「Parblo Intangbo S」绘图板的Linux“驱动程序”，通过rusb/libusb和evdev-rs/libuinput在用户空间中实现。
 
 本程序提供下列功能：
 - 修正在Linux PC环境中使用时，绘图板方向与显示器方向偏转了90度的问题（设备本身有精度丢失，具体见后文「已知问题」）
